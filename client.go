@@ -39,7 +39,7 @@ func readConfig(cfgPath string) (*CouchDBConfig, error) {
 
 	config := CouchDBConfig{
 		Hostname: "http://127.0.0.1/",
-		Port:     5432,
+		Port:     5984,
 		Username: "admin",
 		Password: "adminpw",
 	}
